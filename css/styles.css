@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.nav {
+  background-color: #38427e;
+  color: white; }
+  .nav div h1 {
+    margin-left: 8px; }
+
+#titulo_principal {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: 'Hind', sans-serif; }
+
+.container h3 {
+  font-size: 30px; }
+
+#formulario_persona {
+  margin-top: 20px; }
+
+.btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #38427e !important;
+  color: white !important;
+  border-radius: 20px !important; }
+  .btn:hover {
+    background-color: #121b4b !important; }
+
+.footer {
+  margin-top: 20px;
+  padding-top: 15px;
+  height: 60px;
+  background-color: #38427e;
+  color: white; }
+  .footer p {
+    font-size: 15px; }
+
+#datosUsuario {
+  color: #38427e;
+  font-size: 30px;
+  font-family: 'Hind', sans-serif;
+  margin-top: 30px; }
+
+#datosAuto p {
+  color: black;
+  font-size: 14px;
+  border: 2px solid;
+  border-color: #38427e;
+  border-radius: 14px;
+  margin-left: 20px;
+  width: 270px;
+  padding: 2px; }
+
+#datosAuto .btn {
+  margin-left: 20px; }
+
+#cotizacion_resultado {
+  display: none;
+  margin-top: 10px; }
+  #cotizacion_resultado .plan_cotizacion {
+    border: 2px solid;
+    border-color: #38427e;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px; }
+  #cotizacion_resultado .lista li {
+    list-style-type: none; }
+  #cotizacion_resultado .descripcion {
+    text-align: left !important; }
+  #cotizacion_resultado .resultadoFinal {
+    color: #38427e;
+    font-size: 30px; }
+  #cotizacion_resultado .plan_cotizacion--titulo {
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+    padding-top: 20px; }
+  #cotizacion_resultado .plan_cotizacion--subtitulo {
+    font-size: 20px; }
+
+#datosEnviados {
+  margin-top: 30px; }
+
+@media (max-width: 375px) and (min-width: 321px) {
+  #datosAuto p {
+    margin-left: 40px;
+    width: 290px; }
+  #datosAuto .btn {
+    margin-left: 40px; }
+  #cotizacion_resultado .plan_cotizacion {
+    width: 340px;
+    margin-left: 20px; } }
+
+@media (max-width: 425px) and (min-width: 376px) {
+  #datosAuto p {
+    margin-left: 70px;
+    width: 290px; }
+  #datosAuto .btn {
+    margin-left: 60px; }
+  #cotizacion_resultado .plan_cotizacion {
+    width: 380px;
+    margin-left: 24px; } }
+
+@media (max-width: 1440px) and (min-width: 426px) {
+  #datosAuto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px; }
+    #datosAuto p {
+      flex-direction: row;
+      margin-top: 25px; }
+    #datosAuto .botones {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse; } }
+
+@media (max-width: 768px) and (min-width: 426px) {
+  #datosAuto p {
+    margin-left: 65px;
+    width: 290px; }
+  #datosAuto .botones {
+    margin-left: 80px; }
+  #cotizacion_resultado .plan_cotizacion {
+    width: 230px; }
+  #cotizacion_resultado .plan_cotizacion--titulo {
+    font-size: 16px; }
+  #cotizacion_resultado .plan_cotizacion--subtitulo {
+    font-size: 18px; }
+  #cotizacion_resultado .plan_cotizacion--desc {
+    font-size: 13px; } }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  #datosAuto p {
+    margin-left: 75px; }
+  #datosAuto .botones {
+    margin-left: 300px; }
+  #cotizacion_resultado .plan_cotizacion {
+    margin-left: 15px;
+    width: 300px; } }
+
+@media (max-width: 1440px) and (min-width: 1025px) {
+  #datosAuto p {
+    margin-left: 150px; }
+  #datosAuto .botones {
+    margin-left: 500px; }
+  #cotizacion_resultado .plan_cotizacion {
+    margin-left: 15px;
+    width: 360px; }
+  #cotizacion_resultado .plan_cotizacion--titulo {
+    font-size: 25px; } }
